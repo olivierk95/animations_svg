@@ -99,24 +99,49 @@
 
                 <path d="M481.145,281.308c-2.651-23.315-24.43-39.84-47.895-39.84H316.075c9.958-17.831 15.303-68.264,15.066-88.866c-0.393-34.102-28.634-61.43-62.737-61.43h-12.402c-8.307,0-15.03,6.722-15.03,15.03c0,34.755-13.533,97.487-39.056,123.011 c-17.179,17.179-31.865,23.404-51.122,33.028v225.518c29.483,9.827,66.917,24.242,123.974,24.242h98.316c32.395,0,57.625-30.003,45.072-61.703c19.125-5.21,33.229-22.75,33.229-43.504c0-5.857-1.13-11.463-3.17-16.615c32.229-8.781,44.092-48.576,21.723-73.563C478.156,307.435,482.688,294.877,481.145,281.308z" fill="#222"/>
 
-            </svg>       
+            </svg>
+
+            <!-- LOADING CIRCLES -->
+            <svg xmlns="https:/www.w3.org/2000/svg"  width="200" height="200" viewbox="0 0 10 10">
+                <circle r="0" cx="5" cy="5" fill="transparent" stroke="#222">
+                    <animate attributeType="xml" attributeName="r" values="0; 5" begin="0" dur="2s" repeatCount="indefinite" />  
+                    <animate attributeType="xml" attributeName="stroke-opacity" values="1; 0" begin="0" dur="2s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="stroke-width" values="0.5; 0" begin="0" dur="2s" repeatCount="indefinite" />                    
+                </circle>
+                <circle r="0" cx="5" cy="5" fill="transparent" stroke="#222">
+                    <animate attributeType="xml" attributeName="r" values="0; 5" begin="0.5" dur="2s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="stroke-opacity" values="1; 0" begin="0.5" dur="2s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="stroke-width" values="0.5; 0" begin="0.5s" dur="2s" repeatCount="indefinite" />                     
+                </circle>
+                <circle r="0" cx="5" cy="5" fill="transparent" stroke="#222">
+                    <animate attributeType="xml" attributeName="r" values="0; 5" begin="1" dur="2s" repeatCount="indefinite" /> 
+                    <animate attributeType="xml" attributeName="stroke-opacity" values="1; 0" begin="1" dur="2s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="stroke-width" values="0.5; 0" begin="1s" dur="2s" repeatCount="indefinite" />                    
+                </circle>
+                <circle r="0" cx="5" cy="5" fill="transparent" stroke="#222">
+                    <animate attributeType="xml" attributeName="r" values="0; 5" begin="1.5" dur="2s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="stroke-opacity" values="1; 0" begin="1.5" dur="2s" repeatCount="indefinite" /> 
+                    <animate attributeType="xml" attributeName="stroke-width" values="0.5; 0" begin="1.5s" dur="2s" repeatCount="indefinite" />                        
+                </circle>
+            </svg>
+
 
             <!-- LOADING VERTICAL BARS -->
             <svg xmlns="https:/www.w3.org/2000/svg"  width="200" height="200" viewbox="0 0 5 9">
                 <rect width="1" height="9" x="0" y="0" fill="#222">
-                    <animate attributeType="xml" attributeName="opacity" type="translate" values=".6; .2; 1" begin="0" dur="0.6s" repeatCount="indefinite" />
-                    <animate attributeType="xml" attributeName="height" values="3; 6; 9" begin="0s" dur="0.6s" repeatCount="indefinite" />
-                    <animate attributeType="xml" attributeName="y" values="3; 1.5; 0" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="opacity" type="translate" values=".6; .2; 1; .6" begin="0" dur="0.8s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="height" values="3; 6; 9; 3" begin="0s" dur="0.8s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="y" values="3; 1.5; 0; 3" begin="0s" dur="0.8s" repeatCount="indefinite" />
                 </rect>
                 <rect width="1" height="9" x="2" y="0" fill="#222">
-                    <animate attributeType="xml" attributeName="opacity" type="translate" values=".2; 1; .6" begin="0" dur="0.6s" repeatCount="indefinite" />
-                    <animate attributeType="xml" attributeName="height" values="6; 9; 3" begin="0s" dur="0.6s" repeatCount="indefinite" />
-                    <animate attributeType="xml" attributeName="y" values="1.5; 0; 3" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="opacity" type="translate" values=".2; 1; .6; .2" begin="0" dur="0.8s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="height" values="6; 9; 3; 6" begin="0s" dur="0.8s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="y" values="1.5; 0; 3; 1.5" begin="0s" dur="0.8s" repeatCount="indefinite" />
                 </rect>
                 <rect width="1" height="9" x="4" y="0" fill="#222">
-                    <animate attributeType="xml" attributeName="opacity" type="translate" values="1; .6; .2" begin="0" dur="0.6s" repeatCount="indefinite" />
-                    <animate attributeType="xml" attributeName="height" values="9; 3; 6" begin="0s" dur="0.6s" repeatCount="indefinite" />
-                    <animate attributeType="xml" attributeName="y" values="0; 3; 1.5" begin="0s" dur="0.6s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="opacity" type="translate" values="1; .6; .2; 1" begin="0" dur="0.8s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="height" values="9; 3; 6; 9" begin="0s" dur="0.8s" repeatCount="indefinite" />
+                    <animate attributeType="xml" attributeName="y" values="0; 3; 1.5; 0" begin="0s" dur="0.8s" repeatCount="indefinite" />
                 </rect>
             </svg>
 
@@ -146,6 +171,31 @@
                 </rect>
             </svg>
 
+            <!-- CHANGING CUBE -->
+            <svg xmlns="https:/www.w3.org/2000/svg" version="1.1" width="200" height="200" viewbox="0 0 10 10">
+                <polygon fill="#222">
+                        <animate attributeType="xml" attributeName="points" begin="0s" values="
+                            2 2, 5 2, 8 2, 8 5, 8 8, 5 8, 2 8, 2 5;
+                            2 2, 5 0, 8 2, 10 5, 8 8, 5 10, 2 8, 0 5;
+                            2 2, 5 2, 8 2, 8 5, 8 8, 5 8, 2 8, 2 5;
+                            2 2, 5 4, 8 2, 6 5, 8 8, 5 6, 2 8, 4 5;
+                            2 2, 5 2, 8 2, 8 5, 8 8, 5 8, 2 8, 2 5
+                        " dur="2s" repeatCount="indefinite"/>
+                </polygon>
+            </svg>
+
+            <!-- CHANGING CUBE -->
+            <svg xmlns="https:/www.w3.org/2000/svg" version="1.1" width="200" height="200" viewbox="0 0 10 10">
+                <polygon fill="#222">
+                        <animate attributeType="xml" attributeName="points" begin="0s" values="
+                            2 2, 5 2, 8 2, 8 5, 8 8, 5 8, 2 8, 2 5;
+                            0 5, 4 4, 5 0, 6 4, 10 5, 6 6, 5 10, 4 6;
+                            2 8, 2 5, 2 2, 5 2, 8 2, 8 5, 8 8, 5 8;
+                            5 6, 0 10, 4 5, 0 0, 5 4, 10 0, 6 5, 10 10;
+                            8 8, 5 8, 2 8, 2 5, 2 2, 5 2, 8 2, 8 5
+                        " dur="4s" repeatCount="indefinite"/>
+                </polygon>
+            </svg>
 
             <!-- CHANGING CROSS -->
             <svg xmlns="https:/www.w3.org/2000/svg" version="1.1" width="200" height="200" viewbox="0 0 10 10">
