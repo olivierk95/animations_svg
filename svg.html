@@ -4,7 +4,7 @@
 
     </head>
     <body>
-        <div style="display: grid; grid-template-columns: repeat(3, auto); grid-gap: 20px; margin: 30px ">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); grid-gap: 20px; margin: 30px ; justify-items: center">
 
             <!-- DRAPEAU BELGE -->
             <svg xmlns="https:/www.w3.org/2000/svg" version="1.1" width="200" viewbox="0 0 3 2">
@@ -353,8 +353,7 @@
 
             </svg>  
 
-            <!-- Invader Attack -->
-            <!-- SPACE INVADER -->
+            <!-- INVADER ATTACK -->
             <svg xmlns="https:/www.w3.org/2000/svg" version="1.1" width="200" height="200" viewbox="0 0 900 600">
                 <g>
                     <g transform="scale(12)">
@@ -368,8 +367,8 @@
                     </g>
                     
                     <path id="theMotionPath" d="M 50 350 Q 50 250 550 200 Q 700 200 700 250 Q 700 350 200 400 Q 100 400 50 350 Z" fill="transparent" />
-                    <animateMotion dur="6s" repeatCount="indefinite">
-                        <mpath xlink:href="#theMotionPath"/>
+                    <animateMotion dur="6s" repeatCount="indefinite" >
+                        <mpath xlink:href="#theMotionPath" />
                     </animateMotion>
                 </g>
             </svg>
