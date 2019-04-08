@@ -1,10 +1,29 @@
 import anime from './node_modules/animejs/lib/anime.es.js';
 
 anime({
-    targets: '.linedrawing',
+  targets: '.linedrawing',
+  strokeDashoffset: [anime.setDashoffset],
+  easing: 'easeOutCubic',
+  duration: 5000,
+  delay: function(el, i) { return i * 100 },
+  direction: 'alternate',
+  loop: true,
+});
+
+var tl = anime.timeline({
+  strokeDashoffset: [anime.setDashoffset],
+  easing: 'linear',
+  duration: 1000,
+  direction: 'reverse',
+});
+
+tl
+  .add({
+    targets: '.signature .gore',
     strokeDashoffset: [anime.setDashoffset],
-    easing: 'easeOutCubic',
-    duration: 5000,
-    delay: function(el, i) { return i * 0 },
-    direction: 'reverse'
-  });
+  })
+  .add({
+    targets: '.signature .al',
+    strokeDashoffset: [anime.setDashoffset],
+  })
+

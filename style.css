@@ -4,7 +4,7 @@
     grid-template-rows: repeat(auto-fit, 15rem);
     grid-gap: 20px;
     margin: 30px; 
-    justify-items: center;
+    justify-items: left;
 }
 
 .heart {
@@ -84,4 +84,30 @@ ul li::before {
     color: blue;
 }
 
+.master {
+    width: auto;
+    height: 100vw; 
+}
 
+.menu {
+    z-index: 1000;
+}
+
+#masterpiece {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100vw;
+}
+
+.sun .st2, .st3 {
+    transform-origin: center center;
+    transform-box: fill-box;
+}
+
+.tree-main .tree-main__leaves {
+    transform-origin: center center;
+    transform-box: fill-box;
+    cursor: pointer;
+}
