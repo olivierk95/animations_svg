@@ -1,4 +1,4 @@
-import anime from './node_modules/animejs/lib/anime.es.js';
+import anime from './anime.es.js/index.js';
 
 anime({
   targets: '.linedrawing',
@@ -15,6 +15,7 @@ var tl = anime.timeline({
   easing: 'linear',
   duration: 1000,
   direction: 'reverse',
+  loop: true,
 });
 
 tl
