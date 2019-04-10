@@ -1,4 +1,4 @@
-import anime from './anime.es.js/index.js';
+import anime from './animejs/lib/anime.es.js/index.js.js.js';
 
 anime({
   targets: '.linedrawing',

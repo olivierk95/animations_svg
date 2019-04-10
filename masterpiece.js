@@ -1,4 +1,4 @@
-import anime from './anime.es.js';
+import anime from './animejs/lib/anime.es.js/index.js.js';
 
 // SNOW
 const snowflake = document.querySelectorAll('.snowflake');
