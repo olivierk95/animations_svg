@@ -27,4 +27,3 @@ tl
     targets: '.signature .al',
     strokeDashoffset: [anime.setDashoffset],
   })
-
